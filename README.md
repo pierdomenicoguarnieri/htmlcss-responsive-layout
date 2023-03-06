@@ -1,4 +1,4 @@
-# Dropbox
+# Responsive Layout
 
 Repo dell'esercizio `htmlcss-responsive-layout` del 06/03/2023
 
