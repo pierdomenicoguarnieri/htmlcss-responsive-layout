@@ -281,3 +281,52 @@ main{
   line-height: 3rem;
   margin-bottom: 30px;
 }
+
+#get-started{
+  background-color: #9792E4;
+  padding: 70px 0;
+  text-align: center;
+  color: white;
+}
+
+#get-started .container{
+  flex-direction: column;
+}
+
+#get-started span.transparent-text{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#get-started h3{
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+#get-started h2{
+  color: #FDC15F;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+#get-started p{
+  line-height: 2rem;
+  margin-bottom: 30px;
+}
+
+#get-started .copyright{
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+#get-started .copyright i{
+  font-size: 0.4rem;
+  line-height: 1rem;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+#get-started .copyright a{
+  color: white;
+}
