@@ -69,4 +69,16 @@
   #app-description .row .col.right img{
     width: 50%;
   }
+
+  #benefits .row .col:nth-child(2n){
+    margin-left: 0;
+  }
+
+  #benefits .row{
+    justify-content: space-between;
+  }
+
+  #benefits .row .col{
+    width: 30%;
+  }
 }

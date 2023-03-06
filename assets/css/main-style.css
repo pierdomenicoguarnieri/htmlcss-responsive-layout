@@ -190,3 +190,47 @@ main{
   font-size: 1.8rem;
   line-height: 1rem;
 }
+
+#benefits{
+  background-color: #9792E4;
+  padding: 50px 0;
+}
+
+#benefits .container > h2{
+  text-align: center;
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#benefits .row{
+  flex-direction: column;
+}
+
+#benefits .row .col{
+  width: 100%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px 30px;
+  margin-bottom: 30px;
+}
+
+#benefits .row .col > h2{
+  font-size: 2.5rem;
+  color: #9792E4;
+  margin-bottom: 20px;
+}
+
+#benefits .row .col > h3{
+  font-size: 1.5rem;
+  color: #9792E4;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+#benefits .row .col > p{
+  color: #818181;
+  font-weight: 200;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
