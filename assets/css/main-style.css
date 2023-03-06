@@ -234,3 +234,50 @@ main{
   line-height: 1.5rem;
   margin-bottom: 20px;
 }
+
+#about-us{
+  padding: 50px 0;
+}
+
+#about-us .row{
+  flex-direction: column;
+}
+
+#about-us .left h2{
+  font-size: 3rem;
+  color: #9792E4;
+  margin-bottom: 30px;
+}
+
+#about-us .left p{
+  line-height: 2.5rem;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+#about-us .right .img-container{
+  position: relative;
+}
+
+#about-us .right .img-container img:not(.absolute){
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+#about-us .right .img-container img.absolute{
+  width: 70px;
+  position: absolute;
+  top: 0;
+  left: 140px;
+  filter: invert(61%) sepia(18%) saturate(932%) hue-rotate(205deg) brightness(95%) contrast(95%);
+}
+
+#about-us .right h3{
+  font-size: 1.7rem;
+  color: #9792E4;
+  line-height: 3rem;
+  margin-bottom: 30px;
+}
