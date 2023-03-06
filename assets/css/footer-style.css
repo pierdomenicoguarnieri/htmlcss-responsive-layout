@@ -1,0 +1,23 @@
+footer{
+  background-color: #333333;
+  padding: 70px 0;
+  text-align: center;
+  color: white;
+}
+
+footer .container{
+  flex-direction: column;
+}
+
+footer p, footer span{
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+footer p{
+  margin-bottom: 30px;
+}
+
+footer a{
+  color: #9792E4;
+}
