@@ -18,4 +18,33 @@
   #app-infos .col.big img{
     max-width: 300px;
   }
+
+  #testimonials .row .col{
+    flex-direction: row;
+  }
+
+  #testimonials .row .col{
+    padding: 10px 20px;
+  }
+
+  #testimonials .row .col .img-container{
+  }
+
+  #testimonials .row .col .content{
+    margin-left: 20px;
+    text-align: left;
+    flex-direction: column;
+    align-items: left;
+    width: 70%;
+    justify-content: center;
+  }
+
+  #testimonials .row .col .content p{
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  #testimonials .row .col .content span{
+    margin: 0;
+  }
 }

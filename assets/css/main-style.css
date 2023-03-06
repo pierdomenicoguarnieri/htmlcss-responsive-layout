@@ -127,3 +127,66 @@ main{
   justify-content: center;
   align-items: center;
 }
+
+#testimonials{
+  padding: 60px 0;
+  text-align: center;
+}
+
+#testimonials h2{
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #9792E4;
+  padding: 20px 0;
+}
+
+#testimonials .container > p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 20px 0;
+}
+
+#testimonials .row{
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+#testimonials .row .col{
+  background-color: #9792E4;
+  border-radius: 40px;
+  color: white;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+#testimonials .row .col img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+#testimonials .row .col .content{
+  flex-direction: column;
+}
+
+#testimonials .row .col p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+#testimonials .row .col .content > span{
+  display: inline-block;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#testimonials .row .col .big-quotes{
+  font-size: 1.8rem;
+  line-height: 1rem;
+}
