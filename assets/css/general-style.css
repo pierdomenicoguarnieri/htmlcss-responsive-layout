@@ -1,3 +1,4 @@
+/* START General */
 *{
   margin: 0;
   padding: 0;
@@ -22,7 +23,9 @@ body{
   width: 70%;
   margin: 0 auto;
 }
+/* END General */
 
+/* START Utilities */
 .d-flex{
   display: flex;
 }
@@ -34,7 +37,9 @@ body{
 .mb-30{
   margin-bottom: 30px;
 }
+/* END Utilities */
 
+/* START Buttons Library */
 .btn{
   padding: 5px 20px;
   border: none;
@@ -78,3 +83,4 @@ body{
   color: #9792E4;
   margin-bottom: 30px;
 }
+/* END Buttons Library */

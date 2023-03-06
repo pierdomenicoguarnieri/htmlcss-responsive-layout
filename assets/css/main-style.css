@@ -2,6 +2,7 @@ main{
   margin-top: 80px;
 }
 
+/* START Section App Infos */
 #app-infos .row{
   flex-direction: column;
   padding: 40px 0;
@@ -52,10 +53,9 @@ main{
 #app-infos .col.big .img-container img{
   width: 100%;
 }
+/* END Section App Infos */
 
-#app-infos .col.big button{
-}
-
+/* START Section App Description */
 #app-description{
   background-color: #9792E4;
   padding: 50px 0;
@@ -122,7 +122,9 @@ main{
   justify-content: center;
   align-items: center;
 }
+/* END Section App Description */
 
+/* START Section Testimonials */
 #testimonials{
   padding: 60px 0;
   text-align: center;
@@ -182,7 +184,9 @@ main{
   font-size: 1.8rem;
   line-height: 1rem;
 }
+/* END Section Testimonials */
 
+/* START Section Benefits */
 #benefits{
   background-color: #9792E4;
   padding: 50px 0;
@@ -225,7 +229,9 @@ main{
   line-height: 1.5rem;
   margin-bottom: 20px;
 }
+/* END Section Benefits */
 
+/* START Section About Us */
 #about-us{
   padding: 50px 0;
 }
@@ -268,7 +274,9 @@ main{
   color: #9792E4;
   line-height: 3rem;
 }
+/* END Section About Us */
 
+/* START Section Get Started */
 #get-started{
   background-color: #9792E4;
   padding: 70px 0;
@@ -313,3 +321,4 @@ main{
 #get-started .copyright a{
   color: white;
 }
+/* END Section Get Started */
