@@ -1,4 +1,8 @@
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
+  .container-small{
+    width: 60%;
+  }
+  
   #app-infos .row{
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,6 +23,14 @@
     max-width: 300px;
   }
 
+  #app-description .row .col.left h2{
+    font-size: 4rem;
+  }
+
+  #testimonials .container > h2{
+    font-size: 2.6rem;
+  }
+
   #testimonials .row .col{
     flex-direction: row;
   }
@@ -28,6 +40,7 @@
   }
 
   #testimonials .row .col .img-container{
+    width: 40%;
   }
 
   #testimonials .row .col .content{
@@ -35,7 +48,7 @@
     text-align: left;
     flex-direction: column;
     align-items: left;
-    width: 70%;
+    width: 60%;
     justify-content: center;
   }
 
@@ -46,6 +59,10 @@
 
   #testimonials .row .col .content span{
     margin: 0;
+  }
+
+  #benefits .container > h2{
+    font-size: 2.6rem;
   }
 
   #benefits .row{
@@ -69,7 +86,24 @@
   #about-us .row .left{
     width: 60%;
   }
+
+  #about-us .row .left h2{
+    font-size: 4rem;
+  }
+
   #about-us .row .right{
     width: 30%;
+  }
+
+  #get-started h3{
+    font-size: 2.8rem;
+  }
+
+  #get-started h2{
+    font-size: 6rem;
+  }
+
+  #get-started p{
+    font-size: 1.2rem;
   }
 }

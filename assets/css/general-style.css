@@ -18,12 +18,21 @@ body{
   margin: 0 auto;
 }
 
+.container-small{
+  width: 70%;
+  margin: 0 auto;
+}
+
 .d-flex{
   display: flex;
 }
 
 .desktop{
   display: none;
+}
+
+.mb-30{
+  margin-bottom: 30px;
 }
 
 .btn{
@@ -51,8 +60,9 @@ body{
 }
 
 .btn.more.about{
+  padding: 10px 20px;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .btn.more.about i{

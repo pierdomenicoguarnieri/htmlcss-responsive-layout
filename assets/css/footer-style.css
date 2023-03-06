@@ -5,7 +5,7 @@ footer{
   color: white;
 }
 
-footer .container{
+footer .container-small{
   flex-direction: column;
 }
 

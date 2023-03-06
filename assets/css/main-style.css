@@ -21,7 +21,6 @@ main{
 #app-infos .col h3{
   color: #0084FD;
   font-size: 1.5rem;
-  margin-bottom: 30px;
 }
 
 #app-infos .col p{
@@ -29,13 +28,11 @@ main{
   font-size: 0.9rem;
   line-height: 1.5rem;
   font-weight: 700;
-  margin-bottom: 30px;
 }
 
 #app-infos .col > i{
   font-size: 5rem;
   color: #0084FD;
-  margin-bottom: 30px;
 }
 
 #app-infos .col:not(.big){
@@ -57,7 +54,6 @@ main{
 }
 
 #app-infos .col.big button{
-  margin-bottom: 30px;
 }
 
 #app-description{
@@ -114,7 +110,6 @@ main{
   text-align: center;
   font-style: italic;
   font-weight: 200;
-  margin-bottom: 30px;
 }
 
 #app-description .row .col.right a{
@@ -155,7 +150,6 @@ main{
   background-color: #9792E4;
   border-radius: 40px;
   color: white;
-  margin-bottom: 30px;
   flex-direction: column;
 }
 
@@ -175,7 +169,6 @@ main{
   font-size: 1.2rem;
   line-height: 2rem;
   padding: 0 20px;
-  margin-bottom: 30px;
 }
 
 #testimonials .row .col .content > span{
@@ -183,7 +176,6 @@ main{
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 30px;
 }
 
 #testimonials .row .col .big-quotes{
@@ -212,7 +204,6 @@ main{
   background-color: white;
   border-radius: 30px;
   padding: 30px 30px;
-  margin-bottom: 30px;
 }
 
 #benefits .row .col > h2{
@@ -246,13 +237,11 @@ main{
 #about-us .left h2{
   font-size: 3rem;
   color: #9792E4;
-  margin-bottom: 30px;
 }
 
 #about-us .left p{
   line-height: 2.5rem;
   font-weight: 100;
-  margin-bottom: 30px;
 }
 
 #about-us .right .img-container{
@@ -264,7 +253,6 @@ main{
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 30px;
 }
 
 #about-us .right .img-container img.absolute{
@@ -279,7 +267,6 @@ main{
   font-size: 1.7rem;
   color: #9792E4;
   line-height: 3rem;
-  margin-bottom: 30px;
 }
 
 #get-started{
@@ -289,31 +276,27 @@ main{
   color: white;
 }
 
-#get-started .container{
+#get-started .container-small{
   flex-direction: column;
 }
 
 #get-started span.transparent-text{
   color: rgba(255, 255, 255, 0.7);
   font-size: 1.2rem;
-  margin-bottom: 30px;
 }
 
 #get-started h3{
   font-size: 2rem;
-  margin-bottom: 30px;
 }
 
 #get-started h2{
   color: #FDC15F;
   font-size: 3.5rem;
-  margin-bottom: 30px;
   font-weight: 800;
 }
 
 #get-started p{
   line-height: 2rem;
-  margin-bottom: 30px;
 }
 
 #get-started .copyright{
