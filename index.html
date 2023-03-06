@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/general-style.css">
     <link rel="stylesheet" href="assets/css/header-style.css">
@@ -11,10 +17,36 @@
     <link rel="stylesheet" href="assets/css/general-style.css">
     <link rel="stylesheet" href="assets/css/general-style.css">
     <link rel="stylesheet" href="assets/css/desktop-style.css">
-    <title>Document</title>
+    <title>Responsive Layout</title>
   </head>
 
   <body>
-    
+    <header>
+      <div class="container d-flex">
+        <div class="left-header">
+          <img src="assets/img/logo.png" alt="Logo" title="Logo">
+        </div>
+
+        <div class="desktop">
+          <div class="right-header d-flex">
+            <nav>
+              <ul>
+                <li><a href="#">Planning</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About Us</a></li>
+              </ul>
+            </nav>
+
+            <button class="btn">Get Started</button>
+          </div>
+        </div>
+        
+
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
