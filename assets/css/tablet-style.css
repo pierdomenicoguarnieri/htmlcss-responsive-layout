@@ -1,3 +1,21 @@
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 769px) {
+  #app-infos .row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    justify-content: space-between;
+  }
+
+  #app-infos .row .col.big{
+    width: 65%;
+  }
   
+  #app-infos .row .col{
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  #app-infos .col.big img{
+    max-width: 300px;
+  }
 }

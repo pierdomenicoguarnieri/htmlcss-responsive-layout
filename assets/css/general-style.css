@@ -30,6 +30,15 @@ body{
   padding: 5px 20px;
   border: none;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 300;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn.blue{
+  background-color: #0084FD;
+  padding: 10px 50px;
+  color: white;
+  font-weight: 700;
 }

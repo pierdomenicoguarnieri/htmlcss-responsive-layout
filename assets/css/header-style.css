@@ -1,6 +1,10 @@
 header{
   height: 80px;
   background-color: #0084FD;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 header .container{

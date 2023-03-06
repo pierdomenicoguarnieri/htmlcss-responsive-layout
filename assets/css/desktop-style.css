@@ -1,7 +1,7 @@
 @media screen and (min-width: 1000px) {
   .container{
-    width: 70%;
-    max-width: 1200px;
+    width: 80%;
+    max-height: 1600px;
     margin: 0 auto;
   }
 
@@ -30,5 +30,24 @@
 
   header .hamburger-menu{
     display: none;
+  }
+
+  #app-infos .col.big{
+    padding-bottom: 0;
+    flex-direction: row;
+  }
+
+  #app-infos .col.big .content{
+    width: 50%;
+  }
+  
+  #app-infos .col.big .img-container{
+    width: 50%;
+    align-items: flex-end;
+  }
+  
+  #app-infos .col.big .img-container img{
+    width: 100%;
+    margin: 0;
   }
 }

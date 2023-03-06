@@ -1,0 +1,61 @@
+main{
+  margin-top: 80px;
+}
+
+#app-infos .row{
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+#app-infos .row .col{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#app-infos .col{
+  background-color: #B5DDFF;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#app-infos .col h3{
+  color: #0084FD;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+#app-infos .col p{
+  color: #5A6E7F;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#app-infos .col > i{
+  font-size: 5rem;
+  color: #0084FD;
+  margin-bottom: 30px;
+}
+
+#app-infos .col:not(.big){
+  text-align: center;
+}
+
+#app-infos .col.big{
+  padding-bottom: 0;
+  flex-direction: column;
+}
+
+#app-infos .col.big .img-container{
+  width: 100%;
+  align-items: flex-end;
+}
+
+#app-infos .col.big .img-container img{
+  width: 100%;
+}
+
+#app-infos .col.big button{
+  margin-bottom: 30px;
+}
