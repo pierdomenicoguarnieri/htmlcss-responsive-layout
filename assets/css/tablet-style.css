@@ -29,7 +29,7 @@
 
   #testimonials .container > h2{
     font-size: 2.6rem;
-  }
+  } 
 
   #testimonials .row .col{
     flex-direction: row;
@@ -40,7 +40,7 @@
   }
 
   #testimonials .row .col .img-container{
-    width: 40%;
+    width: 30%;
   }
 
   #testimonials .row .col .content{
@@ -48,7 +48,7 @@
     text-align: left;
     flex-direction: column;
     align-items: left;
-    width: 60%;
+    width: 65%;
     justify-content: center;
   }
 

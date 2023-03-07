@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .container{
     width: 75%;
     max-height: 1600px;
@@ -63,6 +63,18 @@
   #testimonials .container > h2{
     font-size: 3rem;
     margin-top: 20px;
+  }
+
+  #testimonials .row .col{
+    justify-content: space-between;
+  }
+
+  #testimonials .row .col .img-container{
+    width: 20%;
+  }
+
+  #testimonials .row .col .content{
+    width: 76%;
   }
 
   #app-description .row{
