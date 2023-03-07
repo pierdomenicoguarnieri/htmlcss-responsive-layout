@@ -1,4 +1,8 @@
 /* START General */
+html{
+  scroll-behavior: smooth;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +11,10 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+}
+
+section{
+  scroll-margin-top: 80px;
 }
 
 .debug{
